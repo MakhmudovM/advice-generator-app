@@ -1,0 +1,81 @@
+/* manrope-800 - latin */
+@font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 800;
+    src: url('../fonts/manrope-v15-latin-800.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  }
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(31, 39, 51);
+}
+
+.container{
+    width: 100%;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.card {
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 540px;
+    height: 332px;
+    text-align: center;
+    background-color: #313A48;
+    border-radius: 15px;
+}
+
+.main__tag {
+    color: #53FFAA;
+    font-weight: 800;
+    font-size: 13px;
+    line-height: 17px;
+    letter-spacing: 4px;
+    margin-bottom: 24px;
+}
+.description {
+    color: #CEE3E9;
+    font-weight: 800;
+    font-size: 28px;
+    line-height: 38px;
+    margin-bottom: 40px;    
+}
+.pause__line {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+}
+.line {
+    width: 196px;
+    height: 1px;
+    background-color: #4F5D74;
+}
+.line__img {
+}
+
+.btn{
+    width: 64px;
+    height: 64px;
+    border-radius: 50%;
+    background-color: #53FFAA;
+    border-color: #53FFAA;
+    margin-top: 40px;
+    margin-bottom: -80px;
+}
