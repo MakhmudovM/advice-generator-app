@@ -17,5 +17,5 @@ function getData(api){
 generateBtn.addEventListener("click" , () => {
     getData(api)
         .then(advice => updateUI(advice))
-        .catch(error => console.error('Error fetching advice:', error));
+        .catch(error => console.error('error:', error));
 });

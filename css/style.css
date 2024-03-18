@@ -13,6 +13,7 @@
     box-sizing: border-box;
 }
 body{
+    font-family: 'Manrope';
     display: flex;
     align-items: center;
     justify-content: center;
@@ -50,6 +51,7 @@ body{
     margin-bottom: 24px;
 }
 .description {
+    height: 114px;
     color: #CEE3E9;
     font-weight: 800;
     font-size: 28px;
@@ -78,4 +80,12 @@ body{
     border-color: #53FFAA;
     margin-top: 40px;
     margin-bottom: -80px;
+}
+.btn:hover{
+    cursor: pointer;
+}
+.btn:active{
+    box-shadow: -1px 0px 47px 4px rgba(83,255,170,0.9);
+-webkit-box-shadow: -1px 0px 47px 4px rgba(83,255,170,0.9);
+-moz-box-shadow: -1px 0px 47px 4px rgba(83,255,170,0.9);
 }
